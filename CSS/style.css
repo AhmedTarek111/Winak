@@ -1,14 +1,10 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-}
+ 
 
 .navbar-text {
     font-family: 'Nunito Sans', sans-serif;
     color: #2f2f41 !important;
-}
-
-.w {
-    color: #01a479 !important;
 }
 
 .w, .navbar-text {
@@ -56,16 +52,54 @@ body {
 }
 
 .my-card {
- background-color: #fff;
- border-radius: 30% 90% 20% 30%/30% 90% 30% 30%;
- box-shadow: 0 10px 30px 5px rgba(1,164,121,.06);
+    background-color: #fff;
+    border-radius: 30% 90% 20% 30%/30% 90% 30% 30%;
+    box-shadow: 0 10px 30px 5px rgba(1,164,121,.06);
 }
 
 .my-card.p {
     line-height: 1.3;
     color: #535353;
-    font-family: Nunito,sans-serif;
+    font-family: Nunito, sans-serif;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 400
+    font-weight: 400;
+}
+
+.For-your-Small-Business {
+    color: #2f2f41;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+    font-family: Nunito, sans-serif;
+}
+
+.Perfect-Solution {
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+}
+
+.we-use-the-latest {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.green-dot::marker {
+    color: green;
+}
+.yellow-dot::marker {
+    color: yellow;
+    font-size: 25px;   
+}
+
+.list-green-yellow-dots  {
+    font-family: Nunito,sans-serif;
+}
+
+.list-green-yellow-dots p {
+    color: #535353;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
 }
