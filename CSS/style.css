@@ -1,9 +1,19 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../font/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Nunito Sans', sans-serif;
- 
+    font-family: Nunito, sans-serif !important;
+    color: #535353 ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 .navbar-text {
-    font-family: 'Nunito Sans', sans-serif;
     color: #2f2f41 !important;
 }
 
@@ -13,11 +23,21 @@ body {
     margin-right: 0;
     padding: 0;
 }
+.w {
+    color: #01a479 ;
+}
+
+.w,.inck {
+    font-weight: 400;
+}
 
 .dropdown-nav-text {
     font-weight: 600;
 }
 
+.nav-login {
+    color: #2f2f41 !important;
+}
 .we-are-here-img {
     background-color:#fcfbf7;
     content: "";
@@ -30,7 +50,6 @@ body {
 
 .we-are-here-text {
     font-size: 3.5rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700; 
     color: #2f2f41;
     line-height: 1.3;
@@ -44,6 +63,7 @@ body {
 .We-focus-on-your-business {
     font-weight: 400;
     font-size: 2.8rem;
+    color: #2f2f41;
 }
 
 .need-and-provide-best {
@@ -85,16 +105,19 @@ body {
 }
 
 .green-dot::marker {
-    color: green;
+    color: #01A479;
+    font-size: 25px;   
+
 }
 .yellow-dot::marker {
-    color: yellow;
+    color: #FFBE30;
     font-size: 25px;   
 }
 
-.list-green-yellow-dots  {
-    font-family: Nunito,sans-serif;
-}
+/* .green-dot,.yellow-dot.h6 {
+   
+    
+} */
 
 .list-green-yellow-dots p {
     color: #535353;
@@ -102,4 +125,22 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+
+.perfect-solution-list-item-descritption {
+  color: #535353;
+  font-family: Nunito,sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.list-green-yellow-dots li {
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #2f2f41;
+    line-height: 1.3;
+}
+
+.card-title {
+    color: #2f2f41;
 }
