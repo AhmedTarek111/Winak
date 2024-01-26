@@ -12,6 +12,9 @@ body {
     font-weight: 400;
 }
 
+.my-nav {
+    box-shadow: 0 10px 30px 5px rgba(1,164,121,.06);
+}
 
 .navbar-text {
     color: #2f2f41 !important;
