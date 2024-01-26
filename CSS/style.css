@@ -221,7 +221,7 @@ body {
     font-weight: 300;
 }
 
-.card-link-paragraph,.card-2-link-icon,.card-2-title-link {
+.card-link-paragraph,.card-2-link-icon,.card-2-title-link,t {
     color: black;
 }
 
@@ -258,4 +258,32 @@ body {
 .subscribe-newsletter-paragraph {
     font-size: .875em;
     font-weight: 400;
+}
+
+.w,.inck2 {
+    font-size: 2.5rem;
+    font-family: Nunito,sans-serif ;
+}
+
+.w2 {
+   color:#01a479  ;
+}
+
+.footer-paragraph {
+    font-size: 1rem;
+    color: #34495e;
+}
+
+.columns-title {
+    color: #2f2f41;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.social-icons {
+    color: #2F2F41 !important;
+}
+
+.columns-text {
+    font-size: 1.05rem;   
+    color: #2F2F41 !important;
 }
