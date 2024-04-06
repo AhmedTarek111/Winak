@@ -48,6 +48,7 @@ body {
     right: 0;
     top: 0;
     width: 50%;
+    height:477px;
     z-index: -1
 }
 
@@ -255,7 +256,8 @@ body {
     background-size:cover; 
     background-repeat: no-repeat;
     background-position: 0;
-    background-color: #fcfbf7 !important;;
+    background-color: #fcfbf7 !important;
+    width: fit-content;
 }
 
 .subscribe-newsletter-paragraph {
@@ -289,4 +291,51 @@ body {
 .columns-text {
     font-size: 1.05rem;   
     color: #2F2F41 !important;
+}
+.We-focus-on-your-business-paragraph {
+    font-weight:300;
+    font-size:1.25rem
+}
+
+.my-form-input1 {
+    margin-right: 10px !important;
+}
+/* small screens */
+@media (max-width:576px) {
+    
+    .we-are-here-text {
+        font-size:40px ;
+    }
+    
+    .we-are-here-img {
+        max-width: 100%;
+        height: auto;
+        width: fit-content;
+        position:static;
+    }
+    
+    .We-focus-on-your-business,.need-and-provide-best {
+        font-size:2rem ;
+    }
+    
+    .For-your-Small-Business {
+        font-size: 1.7rem;
+    }
+
+    .discover-even {
+        font-size: 2rem;
+    }
+  
+    .card1,.card2,.card3,.card4,.card5  {
+        display:block !important;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .my-form-input1,.my-form-input2 {
+        width: 70%;
+        margin: 10px 0px;
+    }
+
+
+    
 }
